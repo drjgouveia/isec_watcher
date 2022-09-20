@@ -1,0 +1,2 @@
+@hourly /usr/local/bin/python /app/main.py >> /app/log.txt 2>&1
+@reboot /usr/local/bin/python /app/main.py >> /app/log2.txt 2>&1
